@@ -1,3 +1,6 @@
+from multiprocessing.reduction import register
+
+from .models import  ContactMessage
 from django.contrib import admin
 
-# Register your models here.
+admin.site.register(ContactMessage)
